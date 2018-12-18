@@ -15,4 +15,4 @@ class Bear
 end
 
 a=Bear.new()
-binding
+binding.pry
