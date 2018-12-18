@@ -1,4 +1,4 @@
-require pry
+require "pry"
 class Bear
   def size=(size)
     @size
