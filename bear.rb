@@ -1,3 +1,4 @@
+require pry
 class Bear
   def size=(size)
     @size
@@ -12,3 +13,6 @@ class Bear
     @color
   end
 end
+
+a=Bear.new()
+binding
